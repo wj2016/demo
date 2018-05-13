@@ -1,0 +1,19 @@
+%%% -*- coding: utf-8 -*-
+%%% 这个是利用rebar3 new lib eunit_cover生成的模版app.src文件
+%%% 没有这个文件的话，似乎rebar3没法编译
+%%% 这里不动它，就直接留在这里了
+{application, eunit_cover,
+ [{description, "An OTP library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
